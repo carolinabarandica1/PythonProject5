@@ -5,3 +5,4 @@ def greet():
 simple function that just prints hello
 :return: None
 """
+print("hello!")
