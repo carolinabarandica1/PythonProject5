@@ -37,3 +37,6 @@ def special_op(a,b):
 
 print(special_op(10,2))
 print(special_op(2,10))
+
+result = special_op(8,9)
+print(f'the special op for 8 and 9 is: {result}')
