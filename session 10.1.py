@@ -1,6 +1,7 @@
 def greet():
     print("hello!")
 
-greet()
-greet()
-greet()
+"""
+simple function that just prints hello
+:return: None
+"""
