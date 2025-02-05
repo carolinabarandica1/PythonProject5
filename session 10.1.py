@@ -1,3 +1,4 @@
+from tkinter.font import names
 from types import new_class
 
 
@@ -12,10 +13,27 @@ print("hello!")
 
 def greet2(name):
     """
-    simple function that greets a person
-    :param name: the name of a person
-    :return: None 
-    """"
+       simple function that greets a person
+       :param name: the name of a person
+       :return: None
+       """
 
-print(f"hello,{name}")
+print(f"hello,{names}")
 
+greet2("jane")
+greet2("mary")
+
+def special_op(a,b):
+
+    """
+    special op is 10xa+b
+    :param a: first number
+    :param b: second number
+    :return: value, 10a+b
+    """
+
+    result = 10*a + b
+    return result
+
+print(special_op(10,2))
+print(special_op(2,10))
